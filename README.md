@@ -149,4 +149,4 @@ GPLv3 License
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ruijayfeng/ziwei&type=Date)](https://star-history.com/#ruijayfeng/ziwei&Date)
+[![Star History Chart](https://api.star-history.com/image?repos=ruijayfeng/ziwei&type=timeline&legend=top-left)](https://www.star-history.com/?repos=ruijayfeng%2Fziwei&type=timeline&legend=top-left)
