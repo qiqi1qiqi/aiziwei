@@ -79,15 +79,21 @@ locations. They will be updated together after transfer to `ziweiknows/*`.
 Ziwei Chat is the visual reference for information density, hierarchy, dividers,
 tables, and restrained use of assets. It is not a template to copy verbatim.
 
-- Chart keeps the existing `docs/assets/logo.svg` as a Chart-specific hero asset.
-  Its tagline, `let the chart speak`, describes Chart and must not become a
-  series-wide claim.
-- Chat keeps the `Zhiwei` companion mark as its product-specific emotional cue.
-- ZATI keeps a typographic `ZATI` hero until it has an independently designed
-  archetype mark; do not reuse Chat's character or Chart's logo.
-- The shared ecosystem block uses a text brand lockup, `Ziwei Knows / 紫微知道`,
-  rather than a product logo. This avoids implying one product owns
-  the whole series.
+- The existing `Zhiwei` companion mark is the series mascot and shared visual
+  identity. Ziwei Chat keeps that exact mark unchanged.
+- Chart retains its existing `docs/assets/logo.svg` as its current hero asset.
+  Its `let the chart speak` tagline remains Chart-specific, but future Chart
+  mascot artwork must use the Zhiwei mark as a character reference.
+- ZATI's future archetype artwork must use the Zhiwei mark as a character
+  reference. It should depict the same guide in a distinct assessment context,
+  not introduce a second mascot.
+- Sibling illustrations may vary pose, crop, and product context, but preserve
+  the mascot's hooded silhouette, calm three-quarter portrait language,
+  monochrome ink treatment, and star-at-the-throat motif. Do not make an exact
+  copy of the Chat artwork.
+- The shared ecosystem block uses `Ziwei Knows / 紫微知道` with the existing
+  mascot as the series visual cue. This establishes a shared IP without
+  implying that one product owns the whole series.
 - Use real product screenshots with descriptive alt text. Do not create generic
   decorative art merely to fill the README.
 
