@@ -5,7 +5,7 @@
 ## Current State
 
 - Branch: `main`
-- Source repository: `ruijayfeng/ziwei`
+- Source repository: `ziweiknows/ziwei-chart`
 - Deployment mirror: `ruijayfeng/zwknows`
 - Vercel should remain connected to `zwknows/main`
 - Latest known synced commit: `ec34916707b85fc70adc208ceac6f4ebd15cce48`
@@ -23,12 +23,11 @@
 - Fixed sync workflow credential persistence by setting `persist-credentials: false`.
 - Confirmed workflow succeeds with a classic PAT stored as `ZWKNOWS_SYNC_TOKEN`.
 
-## Current Documentation Task
+## Current Organization Migration
 
-Build a durable development documentation system so new sessions can understand
-the project quickly without rediscovering context. Documentation must be updated
-with each meaningful code change. GitHub issue and pull request templates now
-extend this rule to incoming work and review.
+The source repository is being transferred from `ruijayfeng/ziwei` to
+`ziweiknows/ziwei-chart`. The deployment mirror remains
+`ruijayfeng/zwknows` until its post-transfer sync is verified.
 
 ## Known Verification Baseline
 
@@ -62,8 +61,7 @@ known and is not by itself a failure.
 - Add feature-level tests whenever true solar time or birthplace matching behavior
   changes.
 - Use GitHub issue templates for new feature, bug, and internal development work.
-- Keep the in-app open source links pointed at the source repository unless the
-  public repository strategy changes.
+- Keep the in-app open source links pointed at `ziweiknows/ziwei-chart`.
 
 [PROTOCOL]: Update this file after each feature, fix, release, deployment change,
 or notable verification run.

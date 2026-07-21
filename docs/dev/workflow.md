@@ -73,14 +73,14 @@ state the reason in the PR.
 
 ## GitHub Sync to Vercel Repository
 
-Source repo: `ruijayfeng/ziwei`
+Source repo: `ziweiknows/ziwei-chart`
 
 Deployment mirror: `ruijayfeng/zwknows`
 
 The workflow `.github/workflows/sync-zwknows.yml` runs on pushes to `main`.
 It pushes source `main` to `zwknows/main` with `--force-with-lease`.
 
-Required GitHub secret on `ruijayfeng/ziwei`:
+Required GitHub secret on `ziweiknows/ziwei-chart`:
 
 ```text
 ZWKNOWS_SYNC_TOKEN
@@ -94,14 +94,14 @@ to update workflow files, currently `repo` and `workflow` for a classic PAT.
 Check recent runs:
 
 ```powershell
-gh run list --repo ruijayfeng/ziwei --workflow "Sync zwknows deployment repository" --limit 3 --json databaseId,status,conclusion,headSha,url
+gh run list --repo ziweiknows/ziwei-chart --workflow "Sync zwknows deployment repository" --limit 3 --json databaseId,status,conclusion,headSha,url
 ```
 
 Inspect a run:
 
 ```powershell
-gh run view <run-id> --repo ruijayfeng/ziwei --json status,conclusion,attempt,headSha,url
-gh run view <run-id> --repo ruijayfeng/ziwei --log
+gh run view <run-id> --repo ziweiknows/ziwei-chart --json status,conclusion,attempt,headSha,url
+gh run view <run-id> --repo ziweiknows/ziwei-chart --log
 ```
 
 Compare refs:

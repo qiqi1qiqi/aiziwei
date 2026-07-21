@@ -9,7 +9,7 @@ describe('sync-zwknows workflow', () => {
   const workflow = readFileSync(resolve(__dirname, '../../.github/workflows/sync-zwknows.yml'), 'utf8')
 
   it('only syncs from the canonical source repository', () => {
-    expect(workflow).toContain("github.repository == 'ruijayfeng/ziwei'")
+    expect(workflow).toContain("github.repository == 'ziweiknows/ziwei-chart'")
   })
 
   it('pushes main to the deployment repository with the configured token', () => {

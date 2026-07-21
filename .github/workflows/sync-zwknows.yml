@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   sync:
-    if: github.repository == 'ruijayfeng/ziwei'
+    if: github.repository == 'ziweiknows/ziwei-chart'
     runs-on: ubuntu-latest
 
     steps:

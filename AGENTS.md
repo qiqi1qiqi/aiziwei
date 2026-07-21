@@ -39,7 +39,7 @@ docs/ - User-facing docs, licenses, plans, and development memory.
 <config>
 app/package.json - npm scripts and frontend dependencies.
 app/vite.config.ts - Vite build and test configuration.
-.github/workflows/sync-zwknows.yml - Mirrors `ruijayfeng/ziwei/main` to `ruijayfeng/zwknows/main`.
+.github/workflows/sync-zwknows.yml - Mirrors `ziweiknows/ziwei-chart/main` to `ruijayfeng/zwknows/main`.
 </config>
 
 ## Commands
@@ -93,8 +93,8 @@ A change is not complete until code, tests, and documentation agree.
 
 ## Current Deployment Model
 
-`ruijayfeng/ziwei` is the source repository. `ruijayfeng/zwknows` is the
-deployment mirror used by Vercel. Pushes to `ziwei/main` trigger a GitHub Actions
+`ziweiknows/ziwei-chart` is the source repository. `ruijayfeng/zwknows` is the
+deployment mirror used by Vercel. Pushes to `ziweiknows/ziwei-chart/main` trigger a GitHub Actions
 workflow that force-with-lease syncs `zwknows/main` using the
 `ZWKNOWS_SYNC_TOKEN` repository secret.
 
