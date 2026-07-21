@@ -30,8 +30,8 @@
 ## 快速開始
 
 ```bash
-git clone https://github.com/ruijayfeng/ziwei.git
-cd ziwei/app
+git clone https://github.com/ziweiknows/ziwei-chart.git
+cd ziwei-chart/app
 npm install
 npm run dev
 ```
@@ -40,11 +40,11 @@ npm run dev
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ruijayfeng/ziwei&project-name=ziwei&root-directory=app)
+[![Deploy with Vercel](https://vercel.com/new/clone?repository-url=https://github.com/ziweiknows/ziwei-chart&project-name=ziwei&root-directory=app)
 
 ### Cloudflare Pages
 
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ruijayfeng/ziwei)
+[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ziweiknows/ziwei-chart)
 
 ## 設定
 

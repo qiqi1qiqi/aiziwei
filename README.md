@@ -17,9 +17,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ruijayfeng/ziwei"><img alt="Stars" src="https://img.shields.io/github/stars/ruijayfeng/ziwei?style=social" /></a>
-  <a href="https://github.com/ruijayfeng/ziwei"><img alt="Forks" src="https://img.shields.io/github/forks/ruijayfeng/ziwei?style=social" /></a>
-  <a href="https://github.com/ruijayfeng/ziwei/blob/main/LICENSE"><img alt="GPLv3 License" src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
+  <a href="https://github.com/ziweiknows/ziwei-chart"><img alt="Stars" src="https://img.shields.io/github/stars/ziweiknows/ziwei-chart?style=social" /></a>
+  <a href="https://github.com/ziweiknows/ziwei-chart"><img alt="Forks" src="https://img.shields.io/github/forks/ziweiknows/ziwei-chart?style=social" /></a>
+  <a href="https://github.com/ziweiknows/ziwei-chart/blob/main/LICENSE"><img alt="GPLv3 License" src="https://img.shields.io/badge/License-GPLv3-blue.svg" /></a>
   <img alt="TypeScript 5.9" src="https://img.shields.io/badge/TypeScript-5.9-blue" />
   <img alt="React 19" src="https://img.shields.io/badge/React-19-61DAFB" />
   <img alt="Vite 7" src="https://img.shields.io/badge/Vite-7-646CFF" />
@@ -35,11 +35,11 @@
 
 | 产品 | 适合什么需求 | 访问 |
 | --- | --- | --- |
-| **Ziwei Chart** `当前产品` | 想准确排盘、浏览十二宫、趋势、流年或合盘。 | [在线体验](https://zwknows.vercel.app/) · [GitHub](https://github.com/ruijayfeng/ziwei) |
-| **Ziwei Chat** | 已有命盘，想围绕事业、关系、财富或近况继续追问。 | [开始对话](https://ziweichat.vercel.app/) · [GitHub](https://github.com/ruijayfeng/ziwei_chat) |
-| **ZATI** | 不想先填写出生信息，想通过行为选择探索人格原型。 | [查看项目](https://github.com/ruijayfeng/ZATI) |
+| **Ziwei Chart** `当前产品` | 想准确排盘、浏览十二宫、趋势、流年或合盘。 | [在线体验](https://zwknows.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chart) |
+| **Ziwei Chat** | 已有命盘，想围绕事业、关系、财富或近况继续追问。 | [开始对话](https://ziweichat.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chat) |
+| **ZATI** | 不想先填写出生信息，想通过行为选择探索人格原型。 | [查看项目](https://github.com/ziweiknows/zati) |
 
-如果你想先看清盘面和长期趋势，留在 Ziwei Chart；如果你更关心一个具体问题，试试 [在 Ziwei Chat 中追问命盘](https://ziweichat.vercel.app/)；如果你想从行为倾向开始，也可以探索 [ZATI 东方人格原型](https://github.com/ruijayfeng/ZATI)。
+如果你想先看清盘面和长期趋势，留在 Ziwei Chart；如果你更关心一个具体问题，试试 [在 Ziwei Chat 中追问命盘](https://ziweichat.vercel.app/)；如果你想从行为倾向开始，也可以探索 [ZATI 东方人格原型](https://github.com/ziweiknows/zati)。
 
 ## 这是什么
 
@@ -90,7 +90,7 @@
 
 ### Ziwei Chart 和 Ziwei Chat 有什么区别？
 
-Ziwei Chart 用于生成和可视化浏览命盘、趋势、合盘等结构化信息；[Ziwei Chat](https://github.com/ruijayfeng/ziwei_chat) 用于围绕这些事实进行自然语言追问，并展示工具、知识来源和回答质检证据。
+Ziwei Chart 用于生成和可视化浏览命盘、趋势、合盘等结构化信息；[Ziwei Chat](https://github.com/ziweiknows/ziwei-chat) 用于围绕这些事实进行自然语言追问，并展示工具、知识来源和回答质检证据。
 
 ### 为什么需要出生地和真太阳时？
 
@@ -109,8 +109,8 @@ Ziwei Chart 用于生成和可视化浏览命盘、趋势、合盘等结构化�
 环境要求：Node.js 22+、npm 10+。
 
 ```bash
-git clone https://github.com/ruijayfeng/ziwei.git
-cd ziwei/app
+git clone https://github.com/ziweiknows/ziwei-chart.git
+cd ziwei-chart/app
 npm install
 npm run dev
 ```
@@ -125,13 +125,13 @@ npm run dev
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ruijayfeng/ziwei&project-name=ziwei&root-directory=app)
+[![Deploy with Vercel](https://vercel.com/new/clone?repository-url=https://github.com/ziweiknows/ziwei-chart&project-name=ziwei&root-directory=app)
 
 导入时将 **Root Directory** 设置为 `app`。
 
 ### Cloudflare Pages
 
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ruijayfeng/ziwei)
+[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ziweiknows/ziwei-chart)
 
 - Framework preset: `Vite`
 - Root directory: `app`
@@ -160,4 +160,4 @@ app/
 
 ---
 
-<p align="center">如果 Ziwei Chart 对你有帮助，欢迎点亮 Star，也欢迎探索紫微知道的 <a href="https://github.com/ruijayfeng/ziwei_chat">Ziwei Chat</a> 与 <a href="https://github.com/ruijayfeng/ZATI">ZATI</a>。</p>
+<p align="center">如果 Ziwei Chart 对你有帮助，欢迎点亮 Star，也欢迎探索紫微知道的 <a href="https://github.com/ziweiknows/ziwei-chat">Ziwei Chat</a> 与 <a href="https://github.com/ziweiknows/zati">ZATI</a>。</p>

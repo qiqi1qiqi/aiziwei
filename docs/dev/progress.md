@@ -25,9 +25,8 @@
 
 ## Current Organization Migration
 
-The source repository is being transferred from `ruijayfeng/ziwei` to
-`ziweiknows/ziwei-chart`. The deployment mirror remains
-`ruijayfeng/zwknows` until its post-transfer sync is verified.
+The source repository has moved to `ziweiknows/ziwei-chart`. The deployment
+mirror remains `ruijayfeng/zwknows` until its post-transfer sync is verified.
 
 ## Known Verification Baseline
 

@@ -27,7 +27,7 @@ Consequence: dataset license and source attribution must remain tracked under
 
 ## D003 - Deployment Uses a Mirror Repository
 
-`ruijayfeng/ziwei` is the development source. `ruijayfeng/zwknows` is the fork or
+`ziweiknows/ziwei-chart` is the development source. `ruijayfeng/zwknows` is the fork or
 mirror connected to Vercel. The source repository syncs to the deployment mirror
 through GitHub Actions.
 
@@ -47,7 +47,7 @@ user's deployment mirror.
 Consequence: keep this condition unless the deployment model changes:
 
 ```yaml
-if: github.repository == 'ruijayfeng/ziwei'
+if: github.repository == 'ziweiknows/ziwei-chart'
 ```
 
 ## D005 - Documentation Is Part of the Deliverable
