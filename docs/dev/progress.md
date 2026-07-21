@@ -8,7 +8,7 @@
 - Source repository: `ziweiknows/ziwei-chart`
 - Deployment mirror: `ruijayfeng/zwknows`
 - Vercel should remain connected to `zwknows/main`
-- Latest known synced commit: `ec34916707b85fc70adc208ceac6f4ebd15cce48`
+- Latest known synced commit: `8922cc2d738334e5d7bb6ee6f43f105870728c8b`
 - Working tree was clean before this documentation task.
 
 ## Recently Completed
@@ -23,10 +23,13 @@
 - Fixed sync workflow credential persistence by setting `persist-credentials: false`.
 - Confirmed workflow succeeds with a classic PAT stored as `ZWKNOWS_SYNC_TOKEN`.
 
-## Current Organization Migration
+## Organization Migration
 
-The source repository has moved to `ziweiknows/ziwei-chart`. The deployment
-mirror remains `ruijayfeng/zwknows` until its post-transfer sync is verified.
+The Chart source repository moved to `ziweiknows/ziwei-chart`; Ziwei Chat and
+ZATI moved to `ziweiknows/ziwei-chat` and `ziweiknows/zati`. GitHub preserved
+the repositories' public visibility, history, community assets, workflows, and
+the Chart `ZWKNOWS_SYNC_TOKEN` secret. The post-transfer source-to-mirror sync
+completed successfully at `8922cc2d738334e5d7bb6ee6f43f105870728c8b`.
 
 ## Known Verification Baseline
 
@@ -54,7 +57,8 @@ known and is not by itself a failure.
 
 ## Next Useful Work
 
-- Confirm Vercel deployment status after the next real `main` push.
+- Keep `ruijayfeng/zwknows` as the Vercel mirror unless the deployment model is
+  deliberately migrated and revalidated.
 - Consider replacing or migrating the garbled `CLAUDE.md` once the new docs have
   been accepted.
 - Add feature-level tests whenever true solar time or birthplace matching behavior
