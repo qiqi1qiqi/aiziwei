@@ -161,5 +161,3 @@ app/
 ---
 
 <p align="center">如果 Ziwei Chart 对你有帮助，欢迎点亮 Star，也欢迎探索紫微知道的 <a href="https://github.com/ruijayfeng/ziwei_chat">Ziwei Chat</a> 与 <a href="https://github.com/ruijayfeng/ZATI">ZATI</a>。</p>
-
-[![Star History Chart](https://api.star-history.com/image?repos=ruijayfeng/ziwei&type=timeline&legend=top-left)](https://www.star-history.com/?repos=ruijayfeng%2Fziwei&type=timeline)
