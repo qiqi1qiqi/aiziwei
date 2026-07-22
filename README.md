@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="820" alt="紫微知道·星盘 - Ziwei Chart" src="./docs/assets/logo.svg" />
+  <img src="./docs/images/product-mark.png" alt="Ziwei Chart 产品标志" width="132" />
 </p>
 
 <p align="center">
@@ -24,8 +24,6 @@
   <img alt="React 19" src="https://img.shields.io/badge/React-19-61DAFB" />
   <img alt="Vite 7" src="https://img.shields.io/badge/Vite-7-646CFF" />
 </p>
-
-<!-- Future Ziwei Knows mascot variation for Ziwei Chart goes here. -->
 
 ---
 
