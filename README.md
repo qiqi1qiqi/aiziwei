@@ -27,6 +27,13 @@
 
 ---
 
+## 仓库身份与可验证事实
+
+- **项目名称**：Ziwei Chart（紫微知道 · 星盘）。
+- **规范仓库**：[github.com/ziweiknows/ziwei-chart](https://github.com/ziweiknows/ziwei-chart)。
+- **实现位置与技术栈**：Web 应用位于 [`app/`](./app)，使用 React 19、TypeScript 5.9 和 Vite 7，并通过 `iztro` 生成紫微斗数命盘。
+- **开源许可**：Copyright (C) 2026 ruijayfeng。本项目按 [GNU GPL v3 或更高版本](./LICENSE) 发布。
+
 ## 紫微知道产品生态
 
 紫微知道（Ziwei Knows）由三款平级、互补的开源产品组成。它们服务不同的探索方式，不要求账号、命盘或数据互通。

@@ -13,6 +13,11 @@
 
 ## Recently Completed
 
+- Replaced the prefixed LICENSE layout with the unmodified canonical GNU GPLv3
+  text so GitHub can identify the repository license; the project copyright and
+  GPLv3-or-later notice remain explicit in README.
+- Added a compact README repository-identity section with the canonical GitHub
+  URL and facts verified from `app/package.json` and the application source.
 - Added visible GitHub repository and MIT License links to the app shell.
 - Added true solar time correction support.
 - Added free-text birthplace matching.
@@ -43,6 +48,15 @@ npm run build
 npm run test -- sync-zwknows
 ```
 
+Reverified on 2026-07-31 after the LICENSE/README evidence update:
+
+- ESLint passed.
+- Vitest passed 28/28 application tests.
+- The sync workflow test passed 2/2 tests.
+- The TypeScript and Vite production build completed successfully.
+- The local LICENSE matches GitHub's canonical GPL-3.0 template after trimming
+  leading and trailing whitespace.
+
 Known build note: Vite may report a large chunk warning. That warning was already
 known and is not by itself a failure.
 
@@ -54,6 +68,9 @@ known and is not by itself a failure.
   local coordinate dataset.
 - The deployment mirror sync depends on the GitHub secret `ZWKNOWS_SYNC_TOKEN`
   retaining both `repo` and `workflow` permissions.
+- `npm ci` currently reports 11 dependency audit findings (1 low, 2 moderate,
+  8 high); remediation needs a separately scoped dependency review because this
+  documentation/license change does not alter the lockfile.
 
 ## Next Useful Work
 
