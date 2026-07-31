@@ -8,7 +8,7 @@
 - Source repository: `ziweiknows/ziwei-chart`
 - Deployment mirror: `ruijayfeng/zwknows`
 - Vercel should remain connected to `zwknows/main`
-- Latest known synced commit: `8922cc2d738334e5d7bb6ee6f43f105870728c8b`
+- Source-to-mirror sync verified through: `eb76a165dac652e24ac674d322386e7447a3acf0`
 - Working tree was clean before this documentation task.
 
 ## Recently Completed
