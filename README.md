@@ -36,15 +36,16 @@
 
 ## 紫微知道产品生态
 
-紫微知道（Ziwei Knows）由三款平级、互补的开源产品组成。它们服务不同的探索方式，不要求账号、命盘或数据互通。
+紫微知道（Ziwei Knows）由四款平级、互补的开源产品组成。它们服务不同的探索方式，不要求账号、命盘或数据互通。
 
 | 产品 | 适合什么需求 | 访问 |
 | --- | --- | --- |
 | **Ziwei Chart** `当前产品` | 想准确排盘、浏览十二宫、趋势、流年或合盘。 | [在线体验](https://zwknows.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chart) |
 | **Ziwei Chat** | 已有命盘，想围绕事业、关系、财富或近况继续追问。 | [开始对话](https://ziweichat.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chat) |
 | **ZATI** | 不想先填写出生信息，想通过行为选择探索人格原型。 | [在线体验](https://zati-kappa.vercel.app/) · [GitHub](https://github.com/ziweiknows/zati) |
+| **Ziwei Draw** | 想通过亲手抽牌布阵的仪式感，获得当下问题的觉察视角。 | 即将上线 · [GitHub](https://github.com/ziweiknows/ziwei-card) |
 
-如果你想先看清盘面和长期趋势，留在 Ziwei Chart；如果你更关心一个具体问题，试试 [在 Ziwei Chat 中追问命盘](https://ziweichat.vercel.app/)；如果你想从行为倾向开始，也可以探索 [ZATI 东方人格原型](https://github.com/ziweiknows/zati)。
+如果你想先看清盘面和长期趋势，留在 Ziwei Chart；如果你更关心一个具体问题，试试 [在 Ziwei Chat 中追问命盘](https://ziweichat.vercel.app/)；如果你想从行为倾向开始，也可以探索 [ZATI 东方人格原型](https://github.com/ziweiknows/zati)；如果你想通过仪式感在当下获得觉察，打开 [Ziwei Draw](https://github.com/ziweiknows/ziwei-card)。
 
 ## 这是什么
 
@@ -165,4 +166,4 @@ app/
 
 ---
 
-<p align="center">如果 Ziwei Chart 对你有帮助，欢迎点亮 Star，也欢迎探索紫微知道的 <a href="https://github.com/ziweiknows/ziwei-chat">Ziwei Chat</a> 与 <a href="https://github.com/ziweiknows/zati">ZATI</a>。</p>
+<p align="center">如果 Ziwei Chart 对你有帮助，欢迎点亮 Star，也欢迎探索紫微知道的 <a href="https://github.com/ziweiknows/ziwei-chat">Ziwei Chat</a>、<a href="https://github.com/ziweiknows/zati">ZATI</a> 与 <a href="https://github.com/ziweiknows/ziwei-card">Ziwei Draw</a>。</p>
